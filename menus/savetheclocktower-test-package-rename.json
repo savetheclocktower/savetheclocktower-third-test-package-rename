@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle savetheclocktower-test-package-rename",
+        "command": "savetheclocktower-test-package-rename:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "savetheclocktower-test-package-rename",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "savetheclocktower-test-package-rename:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
